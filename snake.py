@@ -3,23 +3,22 @@ import random
 
 pygame.init()
 
-# Screen
 WIDTH = 600
 HEIGHT = 400
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Snake Game 🐍")
 
-# Colors
+
 BLACK = (0, 0, 0)
 GREEN = (0, 200, 0)
 RED = (255, 0, 0)
 WHITE = (255, 255, 255)
 
-# Snake
+
 snake = [(300, 200), (290, 200), (280, 200)]
 direction = (10, 0)
 
-# Food
+
 food = (
     random.randrange(0, WIDTH, 10),
     random.randrange(0, HEIGHT, 10)
@@ -30,7 +29,7 @@ running = True
 
 while running:
 
-    # Events
+   
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
@@ -49,14 +48,14 @@ while running:
             elif event.key == pygame.K_RIGHT and direction != (-10, 0):
                 direction = (10, 0)
 
-    # Move snake
+   
     head_x, head_y = snake[0]
     dx, dy = direction
 
     new_head = (head_x + dx, head_y + dy)
     snake.insert(0, new_head)
 
-    # Eat food
+   
     if new_head == food:
         food = (
             random.randrange(0, WIDTH, 10),
@@ -65,7 +64,7 @@ while running:
     else:
         snake.pop()
 
-    # Game over
+    
     if (
         new_head[0] < 0 or
         new_head[0] >= WIDTH or
@@ -75,7 +74,7 @@ while running:
     ):
         running = False
 
-    # Draw
+
     screen.fill(BLACK)
 
     for segment in snake:
