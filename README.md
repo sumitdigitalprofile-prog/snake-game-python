@@ -28,3 +28,7 @@ The project was created to learn the basics of game development with Python, inc
 
 - **Python**
 - **Pygame**
+
+## 🧑‍💻 Author
+- **Name:** Sumit Kumar
+- **GitHub** sumitdigitalprofile-prog
