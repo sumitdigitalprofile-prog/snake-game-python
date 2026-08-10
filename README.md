@@ -29,6 +29,11 @@ The project was created to learn the basics of game development with Python, inc
 - **Python**
 - **Pygame**
 
-## 🧑‍💻 Author
-- **Name:** Sumit Kumar
-- **GitHub** sumitdigitalprofile-prog
+## 📂 Project Structure
+
+```text
+Snake-Game/
+│
+├── snake.py
+├── README.md
+└── .gitignore
