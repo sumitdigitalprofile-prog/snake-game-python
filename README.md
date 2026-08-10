@@ -37,14 +37,3 @@ Snake-Game/
 ├── snake.py
 ├── README.md
 └── .gitignore
-## 👨‍💻 Author
-
-**Sumit Kumar**
-
-GitHub: https://github.com/sumitdigitalprofile-prog
-
----
-
-## ⭐ If you found this project useful
-
-Please consider giving it a ⭐ on GitHub.
