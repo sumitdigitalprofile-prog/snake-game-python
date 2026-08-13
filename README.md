@@ -50,4 +50,5 @@ Snake-Game/
 ```
 ## Author
 Sumit Kumar
+
 GitHub: sumitdigitalprofile-prog
