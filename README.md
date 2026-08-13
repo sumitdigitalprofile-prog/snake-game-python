@@ -37,3 +37,17 @@ Snake-Game/
 ├── snake.py
 ├── README.md
 └── .gitignore
+
+
+## 📂 Project Structure
+
+```text
+Snake-Game/
+│
+├── snake.py
+├── README.md
+├── .gitignore
+```
+## Author
+Sumit Kumar
+GitHub: sumitdigitalprofile-prog
